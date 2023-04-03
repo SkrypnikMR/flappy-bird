@@ -27,8 +27,18 @@ const Bird: React.FC<BirdProps> = ({
       }
     };
 
+    const handleTouchStart = (e: TouchEvent) => {
+      e.preventDefault();
+      onJump();
+      setVelocity(-jumpPower);
+    };
+
     window.addEventListener("keydown", handleKeyPress);
-    return () => window.removeEventListener("keydown", handleKeyPress);
+    window.addEventListener("touchstart", handleTouchStart);
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+      window.removeEventListener("touchstart", handleTouchStart);
+    }
   }, [jumpPower, onJump]);
 
   useEffect(() => {

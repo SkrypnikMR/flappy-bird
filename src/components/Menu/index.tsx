@@ -15,16 +15,12 @@ const Menu: React.FC<MenuProps> = ({
     <div
       style={{
         position: 'absolute',
-        left: '45%',
-        top: '0',
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        width: '100vw',
         height: "100%",
-      }}
-      onClick={() => {
-        console.log('hehe');
       }}
     >
       <h1>Flappy Bird</h1>
