@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 
 2. Install the dependencies:
 
-~ yarn 
+````yarn````
 
 3. Open your browser and navigate to `http://localhost:3000` to see the game in action.
 
