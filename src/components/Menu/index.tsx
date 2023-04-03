@@ -24,7 +24,7 @@ const Menu: React.FC<MenuProps> = ({
       }}
     >
       <h1>Flappy Bird</h1>
-      <button onClick={onStart}>Start</button>
+      <button className="start-button" onClick={onStart}>Start</button>
       <p>Score: {score}</p>
       <p>Best Score: {bestScore}</p>
     </div>
