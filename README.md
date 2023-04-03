@@ -16,11 +16,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-### git clone https://github.com/SkrypnikMR/flappy-bird.git
+~ git clone https://github.com/SkrypnikMR/flappy-bird.git
 
 2. Install the dependencies:
 
-### yarn 
+~ yarn 
 
 3. Open your browser and navigate to `http://localhost:3000` to see the game in action.
 
